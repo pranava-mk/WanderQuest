@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+  <link rel="stylesheet" href="explore_style.css">
+  <script type="text/javascript">
+  	function handleClick() {
+      var img = document.getElementById("backpack");
+      if (img.src.includes("closed_bag.jpg")) {
+        img.src = "open_bag.jpg";
+      } else {
+        img.src = "closed_bag.jpg";
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <a href="index.html" class="logo"><a/>
+    
+      <div class="icon">  </div>
+      
+      </div>
+  </header>
+  
+  
+ 
+  <div class="container">
+    <div class="activities">
+      <h2>Activities</h2>
+      <p>. Trekking</p>
+      <p>. Diving</p>
+      <p>. Rafting</p>
+      <h2> Accomodations</h2>
+      <h2> transportations</h2>
+    </div>
+    
+    <div class="active-element">
+    	<div class= "container" onclick="handleClick()">
+    		<img id="backpack" src="closed_bag.jpg"></img>
+    	</div>
+      <h2>Your Backpack</h2>
+      <h4>Your prefernce goes here...</h4>
+      <p>(Drag and drop them into your backpack)</p>
+    </div>
+    </div>
+    <div class="container">
+    	
+    
+    <div class="locations">
+      <h2>Locations</h2>
+      <p>The outline of the trip:</p>
+    </div>
+    </div>
+    <p align="center"> &copy 2023. WanderQuest-All rights reserved.</p>
+  
+</body>
+</html>
+
