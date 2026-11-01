@@ -59,7 +59,7 @@ align-items: center;
   
   background-size: cover;
   background-position: center;
-  background-image: url(forest.png);
+  background-image: url(forest.jpg);
   
 
   background-attachment: fixed;     
@@ -108,7 +108,7 @@ a {
 } */
 
 .second {
-  background-image:url(ice.png);
+  background-image:url(ice.jpg);
   background-attachment: fixed;
   height: 1200px;
 }
